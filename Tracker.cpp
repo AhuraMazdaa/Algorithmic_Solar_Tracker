@@ -87,7 +87,7 @@ void Tracker::print_val()
 	Serial.println(t5);
 }
 #else
-void Tracker::print_val()
+void Tracker::debug_print_val()
 {
 	std::cout << "";
 	std::cout << "\n";
