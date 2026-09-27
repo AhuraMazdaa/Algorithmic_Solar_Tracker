@@ -15,7 +15,7 @@ class Tracker
 		void set_Time(int day,double time);
 		double get_elev(); //claculate and returns the elevation
 		double get_azim();	//the elav calculated by the first function must be available to calculate Azimuth
-		void print_val();
+		void debug_print_val();
 		
 	private:
 		double _Lat;//Latitude of location in radians
